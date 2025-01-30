@@ -1,0 +1,13 @@
+INDEX VERSION 1.134
+C:\Users\denit\Desktop\FACULTATE\Anul 3\Semestrul 1\BD\Proiect BD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\702790214.index
+\ddeStore\src\main\java
+C:\Users\denit\Desktop\FACULTATE\Anul 3\Semestrul 1\BD\Proiect BD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2019068075.index
+\signup\src\main\java
+C:\Users\denit\Desktop\FACULTATE\Anul 3\Semestrul 1\BD\Proiect BD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1179252299.index
+\ddeluu\src\main\java
+C:\Users\denit\Desktop\FACULTATE\Anul 3\Semestrul 1\BD\Proiect BD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3716689543.index
+\ddeStore\src\main\java
+C:\Users\denit\Desktop\FACULTATE\Anul 3\Semestrul 1\BD\Proiect BD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1751290088.index
+\signup\src\main\java
+C:\Users\denit\Desktop\FACULTATE\Anul 3\Semestrul 1\BD\Proiect BD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4102224185.index
+\ddeStore\src\main\java

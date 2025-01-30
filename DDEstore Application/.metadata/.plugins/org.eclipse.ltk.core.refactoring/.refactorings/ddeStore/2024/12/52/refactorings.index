@@ -1,0 +1,23 @@
+1735343385368	Move 'addCategory.jsp' to 'admin'
+1735343391503	Move 'addProduct.jsp' to 'admin'
+1735343398300	Move 'categories.jsp' to 'admin'
+1735343405934	Move 'dashboard.jsp' to 'admin'
+1735343419043	Move 'products.jsp' to 'admin'
+1735343493673	Move 'index.jsp' to 'admin'
+1735344308306	Move 'addCategory.jsp' to 'webapp'
+1735344311863	Move 'addProduct.jsp' to 'webapp'
+1735344314695	Move 'dashboard.jsp' to 'webapp'
+1735344317710	Move 'categories.jsp' to 'webapp'
+1735344320719	Move 'index.jsp' to 'webapp'
+1735344323719	Move 'products.jsp' to 'webapp'
+1735389800341	Move 'dashboard.jsp' to 'admin'
+1735393463841	Move 'categories.jsp' to 'admin'
+1735393952561	Move 'addCategory.jsp' to 'admin'
+1735394992877	Move 'products.jsp' to 'admin'
+1735398141220	Delete element
+1735433211995	Delete element
+1735433515983	Move 'index.jsp' to 'user'
+1735435791708	Delete element
+1735482920258	Rename compilation unit 'FilterProductsServlet.java'
+1735483159895	Delete element
+1735499879247	Delete element

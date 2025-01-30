@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+C:\Users\denit\Desktop\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2860525208.index
+2873327698.index
+1751290088.index
+1751290088.index
+1940579224.index
+726817655.index
+3627765228.index
+2256069617.index
+2304555760.index
+1642084665.index

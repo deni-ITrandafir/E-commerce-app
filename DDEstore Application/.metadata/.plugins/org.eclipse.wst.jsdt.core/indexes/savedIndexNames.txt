@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\denit\Desktop\FACULTATE\Anul 3\Semestrul 1\BD\Proiect BD\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3361923235.index
+4110797466.index
+4189748988.index
+1063332432.index
+898639036.index
+4102224185.index
+566747131.index

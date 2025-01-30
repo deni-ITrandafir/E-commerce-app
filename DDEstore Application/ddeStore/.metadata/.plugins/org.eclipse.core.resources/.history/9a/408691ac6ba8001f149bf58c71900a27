@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+
+/* Setări de bază */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+}
+
+/* Fundal gradient */
+.background {
+   
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Containerul formularului */
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 40px 30px;
+    width: 350px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Titlul */
+.login-title {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Inputurile */
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    display: block;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+}
+
+.input-container input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Iconurile */
+.input-container .icon {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+}
+
+
+/* Opțiuni (Remember Me & Forgot Password) */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.options a {
+    color: #ffccff;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+/* Butonul de login */
+.btn-login {
+    background: white;
+    color: #ff0066;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-login:hover {
+    background: #ff66a3;
+    color: white;
+}
+
+/* Textul pentru înregistrare */
+.register-text {
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.register-text a {
+    color: #ffccff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Stilizare pentru bara de navigare */
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    height: 70px;
+}
+
+.navbar .navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-logo img {
+    width: 20%; /* Dimensiune logo */
+}
+
+.navbar .navbar-logo span {
+    color: #ff0099; /* Culoarea roz pentru text */
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Spațiere între linkuri */
+}
+
+.navbar .navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+.navbar .navbar-user {
+    background-color: #ff0099; /* Fundal roz */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px; /* Rotunjire completă */
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table {
+    width: 70%; /* Lățimea tabelului, 80% din pagină */
+    margin: 20px auto; /* Centrează tabelul orizontal și adaugă spațiu de sus/jos */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Fundal deschis */
+    border-radius: 8px; /* Colțuri rotunjite */
+    overflow: hidden; /* Pentru a ascunde marginile rotunjite */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Umbra tabelului */
+}
+
+thead {
+    background-color: #ff0099; /* Fundal roz pentru antet */
+    color: white; /* Text alb */
+    text-transform: uppercase; /* Text cu majuscule */
+    font-weight: bold;
+}
+
+th, td {
+    padding: 12px 15px; /* Spațiere internă */
+    text-align: left;
+    border: none; /* Elimină liniile dintre celule */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fundal gri deschis pentru rândurile pare */
+}
+
+tr:hover {
+    background-color: #ffe6f0; /* Fundal roz deschis la hover */
+}
+
+td {
+    color: #333; /* Culoare text */
+    font-size: 14px; /* Dimensiune text */
+}
+
+th {
+    font-size: 16px; /* Dimensiune text antet */
+    border-bottom: 2px solid white; /* Linie albă sub antet */
+}
+
+caption {
+    caption-side: top;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff0099;
+}

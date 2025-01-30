@@ -1,0 +1,156 @@
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar .form-control {
+    border-radius: 20px;
+}
+
+.navbar .nav-link {
+    color: #ffffff !important;
+    font-size: 1.2rem;
+}
+
+.navbar .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: #495057;
+    color: #ffffff;
+}
+.col-filtre{
+	width: 300px;
+}
+.bg-light {
+    background-color: #f2f3f4 !important;
+    border-radius: 15px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+}
+
+
+.bg-light h5 {
+    font-weight: bold;
+    color: #333;
+}
+
+.bg-light .form-check-label {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.bg-light .form-check-input {
+    accent-color: #007bff;
+}
+
+.bg-light .form-control {
+    border-radius: 6px;
+}
+
+.bg-light .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.bg-light .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.card {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.card .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: linear-gradient(45deg, #ff0076, #7e00ff);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.card .favorite-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #555;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.card .favorite-icon:hover {
+    color: #ff0076;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+    text-align: left;
+}
+
+.card-price {
+    font-size: 1.2rem;
+    color: #ff0000;
+    font-weight: bold;
+    text-align: left;
+}
+
+.card-price sup {
+    font-size: 0.8rem;
+}
+
+.card .cart-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 20%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.card .cart-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
